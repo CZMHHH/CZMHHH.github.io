@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>my test pic</title>
+  <link href="styles/style.css" rel="stylesheet">
+  <style>
+  body{	
+	background-color:green;
+	width:800px;
+	margin:200px auto;
+	padding:0 20px 20px 0;
+	border:5px solid black;
+	}
+  </style>
+ </head>
+ <body>
+	<h1>hahha</h1>
+	<input type="datetime-local" name="datetime" id="datetime">
+	<script src="scripts/main.js" defer></script>
+	<button>切换用户</button>
+	<input type="file" name="file" id="file" accept="image/*" multiple>
+<form action="birds/index.html" method="post">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="请输入您的用户名" name="user-mail"><!--user-mail是输入框的属性-->
+  </div>
+  <div>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail"placeholder="请输入您的常用邮箱" name="user-mail">
+  </div>
+  <div>
+    <label for="msg">Message:</label>
+    <textarea id="msg" col=10 row=5>请输入中文</textarea>
+  </div>
+  <div>
+  <input type="checkbox" id="like"/>
+  <label for="like">香蕉</label>
+  </div>
+  <fieldset>
+  <legend>以下只能二选一</legend>
+<div><!--单选框中的name需要相同，才可以切换不同的选项-->
+  <input type="radio" id="fruit" name="size"/>
+  <label for="fruit">喜欢吃水果吗？</label>
+  </div>
+  <div>
+  <input type="radio" id="game" name="size"/>
+  <label for="game">喜欢吃水果吗？</label>
+  </div>
+  </fieldset>
+  <button type="submit">确认</button>
+  <button type="reset" style="margin:0 0 0 100px;">取消</button>
+</form>
+	<figure>
+	<img  name='pic' src="images/小于1000.jpg" width="700" height="500" alt="my test pic" >
+	<figcaption>Welcome</figcaption>
+	</figure>
+	<object data="mypdf.pdf" height="800" width="1000" type="pdf/application" typemustmatch "><a href="mypdf.pdf" target="_blank"><p>您可以点击此处下载pdf文件</p></a><br><a href="Payform.html">跳转到支付表单</a></br></object>
+	<p  id="my-id" class="editor-note">我真的<strong>醉</strong>了</p>
+	<a href="../learning-area-master/html/tables/basic/blank-template.html" title="课程表" target="_blank"><p>快来点击你的课程表</p></a>
+	<ul>
+		<li>今天</li>
+		<li>天气</li>
+		<li>不错</li>
+	</ul>
+	<iframe  src="https://player.bilibili.com/player.html?aid=19390801&cid=31621681&page=1" scrolling="no" border="0" frameborder=1 framespacing="0" allowfullscreen=="true" width=100% height=100% > </iframe>
+   <p id ="my-id">鬼畜视频</p>
+	<video controls  loop autoplay muted preload="auto" width=100% height="500" poster="E:/od.jpeg"><source src="E:/目标检测视屏.mp4" type=video/mp4></video>
+	<video controls loop autoplay muted width=100% height=400 poster="E:/od.jpeg"><source src="D:/ChromeCoreDownloads/video-output.mkv"type=video/mp4></video>
+	<a href="birds/index.html" target="_blank" title="这个链接通向鸟页">这是一个超链接</a>
+	<p></p>
+	<a href="mailto:https://mail.qq.com">点击此处，发送邮件</a>
+ </body>
+</html>
